@@ -12,12 +12,12 @@ docker build -t enodation/spring-on-docker .
 
 ### 3. Run container 
 
-#### Option a - Execute container background
+#### Option (a) - Execute container background
 ```bash
 docker run -d -p 8080:8080 --name enodation-spring-on-docker enodation/spring-on-docker
 ```
 
-#### Option b - Execute container forground
+#### Option (b) - Execute container forground
 ```bash
 docker run -p 8080:8080 --name enodation-spring-on-docker enodation/spring-on-docker
 ```

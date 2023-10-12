@@ -1,10 +1,10 @@
-package com.example.demo;
+package com.enodation;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class DemoWebApplicationTests {
 
 	@Test
 	void contextLoads() {
